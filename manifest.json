@@ -1,0 +1,19 @@
+{
+  "name": "What's The Quote?",
+  "description": "Get motivation quotes that you can also tweet",
+  "version": "1.0",
+  "manifest_version": 3,
+  
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/favicon.png"
+    }
+  },
+  "icons": {
+    "16": "/images/favicon.png",
+    "32": "/images/favicon.png",
+    "48": "/images/favicon.png"
+  }
+}
